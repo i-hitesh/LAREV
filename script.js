@@ -37,4 +37,4 @@ function navAnimation() {
     })
 }
 
-navAnimation();
+// navAnimation();
