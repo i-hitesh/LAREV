@@ -68,6 +68,8 @@ function page2Animation() {
 
 }
 
+document.querySelector("pg3-cent")
 
-navAnimation();
+
+// navAnimation();
 page2Animation();
