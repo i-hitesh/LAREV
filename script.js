@@ -68,8 +68,33 @@ function page2Animation() {
 
 }
 
-document.querySelector("pg3-cent")
+function page3Animation() {
+    let page3center = document.querySelector(".pg3-cent");
+    let video = document.querySelector(".page3 video")
+
+    page3center.addEventListener("click", function () {
+        video.play()
+        gsap.to(video, {
+            opacity: 1,
+            transform: "scaleX(1) scaleY(1)",
+            borderRadius: 0
+
+        })
+    })
+
+    video.addEventListener("click", function () {
+        video.pause();
+        video.currentTime = 0;
+        gsap.to(video, {
+            opacity: 0,
+            transform: "scaleX(0.5) scaleY(0)",
+            borderRadius: 20
+        })
+    })
+}
+
 
 
 // navAnimation();
 page2Animation();
+page3Animation();

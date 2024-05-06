@@ -288,11 +288,7 @@ nav button svg {
     justify-content: center;
 }
 
-.pg3-cent {
-    /* background-color: red; */
-    /* text-transform: uppercase; */
 
-}
 
 .pg3-cent .icon {
     display: flex;
@@ -324,6 +320,8 @@ nav button svg {
     transform: translateY(20%);
     user-select: none;
     cursor: pointer;
+    word-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .pg3-cent:hover h5 {
@@ -339,4 +337,5 @@ nav button svg {
     transform: scaleX(0.7) scaleY(0);
     border-radius: 40px;
     opacity: 0;
+    z-index: 99999;
 }
