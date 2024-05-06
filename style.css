@@ -339,3 +339,89 @@ nav button svg {
     opacity: 0;
     z-index: 99999;
 }
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8vw 4.25vw 2vw 6vw;
+    user-select: none;
+}
+
+.page4-left {
+    height: 100%;
+    width: 40%;
+    color: black;
+    font-size: 3.1vw;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+    opacity: .9;
+
+}
+
+.page4-right {
+    color: black;
+    height: 100%;
+    width: 51.5%;
+}
+
+.page4-right-cont {
+    position: relative;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+}
+
+.page4-right-cont h6 {
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-size: 1vw;
+    color: black;
+}
+
+.page4-right-cont p {
+    color: black;
+    font-size: 1.44vw;
+    font-weight: 400;
+}
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw 4.25vw 2vw 6vw;
+    gap: 20px;
+    user-select: none;
+}
+
+.page5 .page5-elem {
+    height: 20vw;
+    width: 32.2%;
+    background-color: #F5F5F5;
+    position: relative;
+    padding: 2vw 1vw 2vw 1vw;
+}
+
+.page5-elem h2 {
+    font-size: 4vw;
+    font-weight: 400;
+    color: black;
+}
+
+.page5-elem h5 {
+    font-weight: 400;
+    color: black;
+}
+
+.page5-elem h6 {
+    font-size: 0.95vw;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1vw;
+    opacity: .4;
+    color: black;
+}
