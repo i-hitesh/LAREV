@@ -95,6 +95,6 @@ function page3Animation() {
 
 
 
-// navAnimation();
+navAnimation();
 page2Animation();
 page3Animation();
